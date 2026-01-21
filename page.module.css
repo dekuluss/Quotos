@@ -1,0 +1,37 @@
+/* NOTE: Disable scroll on this page */
+.pageWelcome {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--color-bg-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.welcomeLogo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.enterAppButton {
+  padding: 1rem 3rem;
+  background-color: var(--color-accent-yellow);
+  color: var(--color-bg-main);
+  font-size: 1.125rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: opacity 0.2s;
+}
+
+.enterAppButton:hover {
+  opacity: 0.9;
+}
